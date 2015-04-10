@@ -1,0 +1,15 @@
+[package]
+name = "git-pull-requests"
+version = "0.0.1"
+authors = ["Vladimir Matveev <vladimir.matweev@gmail.com>"]
+
+[dependencies]
+git2 = "*"
+docopt = "*"
+docopt_macros = "*"
+rustc-serialize = "*"
+regex = "*"
+regex_macros = "*"
+log = "*"
+fern = "*"
+itertools = "*"
